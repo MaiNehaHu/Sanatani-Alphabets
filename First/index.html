@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./Style.css" rel="stylesheet" />
+    <title>Drum Kit</title>
+  </head>
+  <body>
+    <p id="note">Hey!! You have to click on the same button to pause ⏸️ it and double click to play ▶️ another one</p>
+
+    <div id="container">
+      <div class="key">
+        <button onclick="playAudio(A)" type="button">
+          <span>A</span>
+          <p>Arjun</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(B)" type="button">
+          <span>B</span>
+          <p>Balram</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(C)" type="button">
+          <span>C</span>
+          <p>Chanakya</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(D)" type="button">
+          <span>D</span>
+          <p>Druva</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(E)" type="button">
+          <span>E</span>
+          <p>Eklavya</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(F)" type="button">
+          <span>F</span>
+          <p>4 vedas</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(G)" type="button">
+          <span>G</span>
+          <p>Ganpati Bappa</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(H)" type="button">
+          <span>H</span>
+          <p>4 vedas</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(I)" type="button">
+          <span>I</span>
+          <p>Indra</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(J)" type="button">
+          <span>J</span>
+          <p>Jatayu</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(K)" type="button">
+          <span>K</span>
+          <p>Krishna</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(L)" type="button">
+          <span>L</span>
+          <p>Luv kush</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(M)" type="button">
+          <span>M</span>
+          <p>Markandey</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(N)" type="button">
+          <span>N</span>
+          <p>Narad</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(O)" type="button">
+          <span>O</span>
+          <p>Omkaar</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(P)" type="button">
+          <span>P</span>
+          <p>Prahalad</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(Q)" type="button">
+          <span>Q</span>
+          <p>Queen gandhari</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(R)" type="button">
+          <span>R</span>
+          <p>Lord Rama</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(S)" type="button">
+          <span>S</span>
+          <p>Surya dev</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(T)" type="button">
+          <span>T</span>
+          <p>Tulasi</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(U)" type="button">
+          <span>U</span>
+          <p>Udhaava</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(V)" type="button">
+          <span>V</span>
+          <p>Vamanavataar</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(W)" type="button">
+          <span>W</span>
+          <p>Water Ganaga</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(X)" type="button">
+          <span>X</span>
+          <p>Xeerabdi dwadasi</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(Y)" type="button">
+          <span>Y</span>
+          <p>Yashoda maa</p>
+        </button>
+      </div>
+      <div class="key">
+        <button onclick="playAudio(Z)" type="button">
+          <span>Z</span>
+          <p>Zaamvant</p>
+        </button>
+      </div>
+    </div>
+
+    <audio id="A">
+      <source src="../audio/A arjun.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="B">
+      <source src="../audio/B balraam.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="C">
+      <source src="../audio/C chanakkya.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="D">
+      <source src="../audio/D druva.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="E">
+      <source src="../audio/E eklavya.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="F">
+      <source src="../audio/F Vedas.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="G">
+      <source src="../audio/ganpati bappa morya.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="H">
+      <source src="../audio/H hanuman.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="I">
+      <source src="../audio/I indradev.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="J">
+      <source src="../audio/J jatayu.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="K">
+      <source src="../audio/K for.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="L">
+      <source src="../audio/L luvkush.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="M">
+      <source src="../audio/M markandey.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="N">
+      <source src="../audio/N narad.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="O">
+      <source src="../audio/O omkar.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="P">
+      <source src="../audio/P for.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="Q">
+      <source src="../audio/Q gandhari.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="R">
+      <source src="../audio/R for.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="S">
+      <source src="../audio/S surya.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="T">
+      <source src="../audio/T tulasi.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="U">
+      <source src="../audio/U dudhava.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="V">
+      <source src="../audio/V vanavatar.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="W">
+      <source src="../audio/W water ganaga.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="X">
+      <source src="../audio/X dwadsi.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="Y">
+      <source src="../audio/Y yashomati.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="Z">
+      <source src="../audio/Z jamvant.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="./DrumKit.js"></script>
+  </body>
+</html>
