@@ -62,11 +62,13 @@ button > p {
     overflow-x: hidden;
   }
 }
+@media screen and (max-width:635px) {
+  .key {
+    margin: 20px 15px 0px;
+  }
+}
 @media screen and (max-width: 600px) {
   button {
-    width: 140px;
-    height: 140px;
-    font-size: 25px;
     word-wrap: break-word;
     word-break: break-all;
   }
@@ -74,4 +76,10 @@ button > p {
 #note {
   width: 100%;
   text-align: center;
+}
+@media screen and (max-width:420px) {
+  button {
+    width: 140px;
+    border-radius: 0.5rem;
+  }
 }
