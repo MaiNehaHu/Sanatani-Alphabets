@@ -64,8 +64,8 @@ button > p {
 }
 @media screen and (max-width: 600px) {
   button {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     font-size: 25px;
     word-wrap: break-word;
     word-break: break-all;
