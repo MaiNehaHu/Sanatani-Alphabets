@@ -1,21 +1,16 @@
 let count = 0;
 
 function playAudio(Playsong) {
+  var myAudio = Playsong;
+  isPlaying ? myAudio.pause() : myAudio.play();
 
-  myAudio = Playsong;
-  
-  if(count===0){
-    console.log("played .count was "+ count)
-    count++
-    myAudio.play();
-    console.log("played .count is  "+ count)
-  }
-  else{
-    console.log("paused .count was "+ count )
-    count--
-    myAudio.pause(); 
-    console.log("paused .count is  "+ count)
-  }
+  myAudio.onplaying = function () {
+    isPlaying = true;
+  };
 
+  myAudio.onpause = function () {
+    isPlaying = false;
+  };
 }
-/**AddEventListenerall that doesn't workin my browse */
+var isPlaying = false;
+
