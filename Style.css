@@ -64,11 +64,6 @@ button > p {
   .key {
     margin: 20px 15px 0px;
   }
-<<<<<<< HEAD
-=======
-}
-@media screen and (max-width: 600px) {
->>>>>>> 098bc0ae83b67d98f91e63195d02676d5c224b89
   button {
     word-wrap: break-word;
     word-break: break-all;
@@ -78,11 +73,7 @@ button > p {
   width: 100%;
   text-align: center;
 }
-<<<<<<< HEAD
 @media screen and (max-width:480px) {
-=======
-@media screen and (max-width:420px) {
->>>>>>> 098bc0ae83b67d98f91e63195d02676d5c224b89
   button {
     width: 140px;
     border-radius: 0.5rem;
